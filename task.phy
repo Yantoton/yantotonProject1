@@ -1,0 +1,100 @@
+# yan_list = ["gt86,farming,r15 v2,coding,treading"]
+# index = 0
+# while index < len(yan_list):
+#     print(yan_list[index])
+#     index += 1
+
+# Make a Big project with Function
+# def paper_list(a,b):
+#     print("Paper list.")
+#
+#     a = int(input("Enter paper number: "))
+#     b = int(input("Enter paper number: "))
+#
+#     if a + b:
+#         print(a+b)
+#     elif a - b:
+#         print(a-b)
+#     elif a * b:
+#         print(a*b)
+#     else:
+#
+#         print(a/b)
+#
+#
+# paper_list(1,2)
+
+# def count_paper()-> None:
+#     paper_num =int(input("Enter paper number:"))
+#     if paper_num >=60:
+#         print("Your paper box is full")
+#     else:
+#          print("Your paper box is empty")
+#
+# count_paper()
+
+# import time
+# print('time test 1')
+# time.sleep(5)
+# print('time test 2')
+
+# from datetime import datetime
+#
+# current_time = datetime.now()
+#
+# hour_integer = current_time.hour
+#
+# if 6<hour_integer<12:
+#     print('weak up go to the work')
+# elif 12<hour_integer<22:
+#     print('working ')
+# else:
+#     print('return home sleep time')
+
+# name = "Mahiyan"
+# for i in name:
+#     print(i)
+
+# Creating a daily shedule program in python
+
+#
+# from datetime import datetime
+#
+# current_time = datetime.now()
+#
+# hour_integer = current_time.hour
+#
+# if 12<hour_integer<13:
+#     print('Weak up & get fresh & take breakfast')
+# elif 13<hour_integer<15:
+#     print('study fc & keep practice')
+# elif 15<hour_integer<17:
+#     print('take care ruhu & give birds and dog food & Lunch')
+# elif 17<hour_integer<19:
+#     print('workout time & Snack  ')
+# elif 19<hour_integer<20:
+#     print('Return Home,do anykind of house work')
+# elif 20<hour_integer<23:
+#     print('Family&Friends time & Learnin new code ')
+# elif 23<hour_integer<24:
+#     print('Go to outside for walk or bike ride')
+# elif 24<hour_integer<1:
+#     print('Play Fortnite game & dinner & coco dinner')
+# elif 1<hour_integer<4:
+#     print('Again study & keep practice & complet task ')
+# else:
+#     print('Your bed is calling it\'s sleep time ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
