@@ -63,3 +63,45 @@ while num < 1 or num > 10:
 print(f"{num} is valid")
 
 
+number = 1
+while number <= 10:
+    print(number)
+    if number % 2 != 0:
+        print(number, end=" ")
+        number += 2
+      
+        print("is even")
+
+    else:
+        print("is odd")
+
+product = 1
+number = 1
+while number <= 5:
+    product = product * number
+    number = number + 1
+    print(product)
+  
+
+sentence = input("Enter a sentence = ")
+words = sentence.split()
+for word in words:
+    i = len(word) -1
+    while i >= 0:
+        print(word[i], end=" ")
+        i -= 1
+        print(end=" ")
+      
+
+  word = input("Enter a word to check:")
+vowels = "aeiou"
+count = 0
+index = 0
+
+while index < len(word):
+    if word[index].lower () not in vowels and word[index].isalpha():
+        count += 1
+    index += 1
+
+print(f"Number of consinants:", count)
+
