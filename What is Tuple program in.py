@@ -37,6 +37,21 @@ my_tuple1 = tuple (("Farm" ,"Car" ,"Code"))
 print(my_tuple1)
 
 
+countries = ("Bangladesh","Italy","Lasvegas","India","England","Germany")
+tap = list(countries)
+tap.remove("India")
+tap.append("China")
+tap.pop(2)
+tap[3] = "Japan"
+countries = tuple(tap)
+print(countries)
+
+countries = ("Pakistan","katar","Afghanistan","Shilanka",)
+countries2 = ("Thailand","Vietnam","Korea","Singapore")
+southEastAsia = countries + countries2
+print(southEastAsia)
+
+
 
 
 
