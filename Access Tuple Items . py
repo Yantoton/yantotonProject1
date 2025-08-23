@@ -1,0 +1,26 @@
+#Access Tuple Items[]:
+
+my_tuple1 = tuple (("Farm" ,"Car" ,"Code"))
+print(my_tuple1[0])
+
+#Negative Indexing,[-1]
+
+my_tuple1 = tuple (("Farm" ,"Car" ,"Code"))
+print(my_tuple1[-0])
+
+#Range of Indexes-[0:10]
+my_tuple1 = tuple (("Farm" ,"Car" ,"Code"))
+print(my_tuple1[0:3])
+
+#Range of Negative Indexes-[-0:-10]
+my_tuple1 = tuple (("Farm" ,"Car" ,"Code"))
+print(my_tuple1[-0:-3])
+
+#Check if Item Exists
+my_tuple1 = tuple (("Farm" ,"Car" ,"Code"))
+if "Farm" in my_tuple1:
+    print("yeap,'Farm' is in the tuple")
+else:
+    print("nope,'Farm' is not in the tuple")
+
+
