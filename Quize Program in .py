@@ -12,6 +12,6 @@ print(op)
 answer = input("Enter the your Option:")
 
 if answer in op:
-    print("Correct Answer 'A.Sahiwal' is Most Famuse breed fo Fatteinng", )
+    print("Correct Answer 'A.Sahiwal' is Most Famuse breed for Fatteinng", )
 else:
     print("Wrong Answer please give the correct answer")
