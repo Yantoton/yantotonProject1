@@ -1,0 +1,11 @@
+operator =input("Enter your choice (+,-,*,/)")
+a = int(input("Enter First Number"))
+b = int(input("Enter Second Number"))
+
+print("The value of Addition",a,"+",b,"=",a+b)
+print("The value of Subtraction",a,"-",b,"=",a-b)
+print("The value of Multiplication",a,"*",b,"=",a*b)
+print("The value of Dividion",a,"/",b,"=",a/b)
+print("The value of Modulus",a,"%",b,"=",a%b)
+print("The value of Exponentiation",a,"**",b,"=",a**b)
+print("The value of Floor Division",a,"//",b,"=",a//b)
