@@ -1,4 +1,5 @@
 
+
 name = input("Enter player name:")
 
 print("Welcome to P.T.M Quize Game "+name)
@@ -11,7 +12,7 @@ print(op)
 
 answer = input("Enter the your Option:")
 
-if answer in op:
+if 'A.Sahiwal' in answer :
     print("Correct Answer 'A.Sahiwal' is Most Famuse breed for Fatteinng", )
 else:
     print("Wrong Answer please give the correct answer")
