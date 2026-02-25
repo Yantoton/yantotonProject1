@@ -1,0 +1,62 @@
+# if __name__=="__main__":
+#  try:
+#
+#     print("Welcome To < P.T.M > Online Banking ")
+#     print("Choose Your Option")
+#     balance = 0
+#
+#     def check_balance():
+#         global balance
+#         print(f"Your Current Account Balance Is:{balance}")
+#
+#     def deposite_balance():
+#         global balance
+#         amount = int(input("Enter the amount to (deposite):"))
+#         balance += amount
+#         print(f"{amount} Balance Deposite Successfully:{balance}")
+#
+#     def withdraw_balance():
+#         global balance
+#         amount = int(input("Enter the amount to (withdraw):"))
+#         if amount <= balance or amount > 0:
+#             balance  -= amount
+#             print(f"{amount} Balance Withdraw Successfully :{balance}")
+#         else:
+#             print(f"Insufficient Balance")
+#
+#     def exit_program():
+#         print("Thank You")
+#
+#     while True:
+#         program_menu = {
+#             1:"check_balance",
+#             2:"deposite_balance",
+#             3:"withdraw_balance",
+#             4:"exit_program",
+#         }
+#         for key,value in program_menu.items():
+#             print(f"{key} : {value}")
+#
+#         option = int(input('Enter your options:'))
+#         if option == 1:
+#             print("Your Current Account Balance Is")
+#             check_balance()
+#         elif option == 2:
+#             print("Enter Deposite Balance Amount")
+#             deposite_balance()
+#         elif option == 3:
+#             print("Enter Your Withdraw Amount:")
+#             withdraw_balance()
+#         elif option == 4:
+#             print("Exiting Program")
+#             exit_program()
+#             break
+#
+#         else:
+#             print("Invalid Choice")
+#  except ValueError:
+#     print("Invalid Input_ValueError_Enter only Integer value Not String stupid fuck>>>!")
+#  else:
+#     print("For Trusting Us")
+#  finally:
+#     print("Program End Successfully")
